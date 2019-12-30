@@ -18,7 +18,7 @@ public class HelloController {
         List<User> list = userService.getUsers();
         for (User user : list) {
             System.out.printf(String.valueOf(user));
-            System.out.println("success===========");
         }
+        System.out.println("success===========");
     }
 }
